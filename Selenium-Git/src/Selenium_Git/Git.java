@@ -8,6 +8,7 @@ public class Git {
 	public void test()
 	{
 		System.out.println("Hello git");
+		System.out.println("Hello Innomids");
 	}
 	
 }
