@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27849" started-at="2019-07-02T07:02:49Z" finished-at="2019-07-02T07:03:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27849" started-at="2019-07-02T07:02:49Z" finished-at="2019-07-02T07:03:17Z">
+      <class name="Testcases.Test1">
+        <test-method status="PASS" signature="chinna()[pri:0, instance:Testcases.Test1@59f99ea]" name="chinna" is-config="true" duration-ms="20392" started-at="2019-07-02T07:02:49Z" finished-at="2019-07-02T07:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinna -->
+        <test-method status="PASS" signature="rajesh()[pri:0, instance:Testcases.Test1@59f99ea]" name="rajesh" duration-ms="5301" started-at="2019-07-02T07:03:09Z" finished-at="2019-07-02T07:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rajesh -->
+        <test-method status="PASS" signature="sudha()[pri:0, instance:Testcases.Test1@59f99ea]" name="sudha" is-config="true" duration-ms="2120" started-at="2019-07-02T07:03:15Z" finished-at="2019-07-02T07:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sudha -->
+      </class> <!-- Testcases.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
