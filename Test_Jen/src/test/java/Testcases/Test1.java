@@ -55,6 +55,11 @@ public class Test1 {
 		System.out.println("URL ::" + p.getProperty("URL"));
 		Thread.sleep(6000);
 	}
+	 if (driver.getPageSource().contains("I'm Feeling Lucky")) {
+                        System.out.println("Pass");
+                } else {
+                        System.out.println("Fail");
+                }
 
 	@AfterTest
 	public void sudha()
