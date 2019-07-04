@@ -46,8 +46,8 @@ public class Test1 {
 
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions Options = new ChromeOptions();
-		chromeOptions.addArguments("--headless");
-                chromeOptions.addArguments("--no-sandbox");
+		Options.addArguments("--headless");
+                Options.addArguments("--no-sandbox");
 		Options.addArguments("--disable-infobars");
 		driver = new ChromeDriver(Options);
 		driver.manage().window().maximize();
